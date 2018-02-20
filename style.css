@@ -271,14 +271,13 @@ img {
     box-sizing: content-box;
 }
 
-.topbar_info{
+.topbar-info{
     width: 423px;
     height: 50px;
-    padding: 0px 70px 0px 20px;
+    padding: 17px 0px 0px 100px;
 }
 
 .topbar_info .vertical-alignment {
-    float: right;
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -310,7 +309,6 @@ img {
 }
 
 .btn-group .buy_now .vertical-alignment {
-    float: right;
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -333,7 +331,6 @@ img {
 }
 
 #advanced .btn-group{
-    float: right;
     margin-right: 15px;
 }
 
@@ -2118,7 +2115,6 @@ a:-webkit-any-link {
         float: left;
     } */
     
-}
 
 @media (min-width:768px) and (max-width:991px){
     #portfolio .col-sm-6{
@@ -2200,13 +2196,25 @@ a:-webkit-any-link {
 
   .img-resp{
       width: 100% !important;
-      margin-top: 0 !important;
   }
 
 
   #full{
       padding: 0 !important;
   }
+
+  .back-to-top {
+    background-color: #3498db;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    border-radius: 2px;
+    position: fixed;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 9999;
+}
   /* .carousel img {
     position: absolute;
     top: 0;
